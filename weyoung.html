@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="WeYoung is an offline English vocabulary learning app for primary and middle school students.">
+  <title>WeYoung - English Vocabulary Learning</title>
+  <style>
+    :root { color-scheme: light; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: #17212f; background: #fbfcf8; }
+    main { width: min(920px, calc(100% - 32px)); margin: 0 auto; padding: 46px 0 72px; }
+    nav { margin-bottom: 28px; }
+    nav a { color: #2b5c88; font-weight: 800; text-decoration: none; }
+    .hero { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 28px; align-items: center; padding: clamp(24px, 5vw, 44px); border: 1px solid #d9e3d2; border-radius: 8px; background: #fff; box-shadow: 0 14px 36px rgba(25, 47, 35, .09); }
+    .icon { width: min(160px, 28vw); height: min(160px, 28vw); border-radius: 34px; box-shadow: 0 12px 30px rgba(17, 32, 49, .16); }
+    .eyebrow { margin: 0 0 10px; color: #2e7658; font-size: 14px; font-weight: 900; letter-spacing: .12em; text-transform: uppercase; }
+    h1 { margin: 0; font-size: clamp(38px, 8vw, 70px); line-height: .98; }
+    .subtitle { margin: 16px 0 0; color: #4b5a6b; font-size: 20px; line-height: 1.55; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-top: 28px; }
+    .panel { border: 1px solid #d9e3d2; border-radius: 8px; background: #fff; padding: 22px; }
+    h2 { margin: 0 0 10px; font-size: 22px; }
+    p, li { line-height: 1.65; }
+    ul { margin: 0; padding-left: 20px; }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 26px; }
+    .button { display: inline-block; border-radius: 6px; padding: 12px 16px; color: #fff; background: #17212f; font-weight: 850; text-decoration: none; }
+    .secondary { color: #2b5c88; background: #e9f1f7; }
+    footer { margin-top: 38px; color: #526173; line-height: 1.7; }
+    @media (max-width: 640px) {
+      .hero { grid-template-columns: 1fr; }
+      .icon { width: 116px; height: 116px; border-radius: 26px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <nav><a href="index.html">Back to Wecomic Apps</a></nav>
+
+    <section class="hero">
+      <div>
+        <p class="eyebrow">WeYoung</p>
+        <h1>English vocabulary learning for students.</h1>
+        <p class="subtitle">Offline word lists, smart review planning, favorites, and progress tracking for primary and middle school English study.</p>
+        <p class="subtitle" lang="zh-Hans">面向中小学生的英语单词学习应用，支持离线词库、智能复习、生词收藏和学习进度记录。</p>
+        <div class="actions">
+          <a class="button" href="https://apps.apple.com/app/id6751082206">View on App Store</a>
+          <a class="button secondary" href="mailto:wei.you.bin@163.com">Contact Support</a>
+        </div>
+      </div>
+      <img class="icon" src="assets/weyoung-icon.png" alt="WeYoung app icon">
+    </section>
+
+    <section class="grid" aria-label="WeYoung features">
+      <article class="panel">
+        <h2>Offline vocabulary</h2>
+        <p>Core primary and middle school English words are available without requiring a network connection.</p>
+      </article>
+      <article class="panel">
+        <h2>Smart review</h2>
+        <p>Study flow combines new words, review words, favorites, and weak words to reduce manual planning.</p>
+      </article>
+      <article class="panel">
+        <h2>Simple learning flow</h2>
+        <p>Students can start quickly, practice repeatedly, and track progress without creating an account.</p>
+      </article>
+    </section>
+
+    <section class="grid" aria-label="Chinese summary">
+      <article class="panel" lang="zh-Hans">
+        <h2>核心功能</h2>
+        <ul>
+          <li>小学、初中核心英语单词学习</li>
+          <li>自动学习计划和复习提醒</li>
+          <li>生词本和学习统计</li>
+          <li>无需登录，核心学习可离线使用</li>
+        </ul>
+      </article>
+      <article class="panel" lang="zh-Hans">
+        <h2>支持</h2>
+        <p>如果遇到使用问题，可以通过邮件联系开发者，并说明设备型号、iOS 版本和问题发生的页面。</p>
+        <p><a href="mailto:wei.you.bin@163.com">wei.you.bin@163.com</a></p>
+      </article>
+    </section>
+
+    <footer>
+      <p>Developer / 开发者：Wecomic<br>Email / 邮箱：<a href="mailto:wei.you.bin@163.com">wei.you.bin@163.com</a></p>
+    </footer>
+  </main>
+</body>
+</html>
